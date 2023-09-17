@@ -5,20 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SURVEY!</title>
 </head>
-<body>
+<body bgcolor="yellow">
     <h1>SURVEY!</h1>
     <br>
-    <form>
-        <label>First Name:</label>
+    <form action="./abc.html">
+        <label>First Name:</label><br>
+        <input type="text" placeholder="Enter Your Name" required><br><br>
+        <label>Last Name:</label><br>
         <input type="text" placeholder="Enter Your Name"><br>
-        <label>Last Name:</label>
-        <input type="text" placeholder="Enter Your Name">
         <br>
-        <label>Email:</label>
-        <input type="text" placeholder="Enter Your Email">
+        <label>Select Your Gender:</label><br>
+        <select>
+        <option selected>select an option</option>
+        <option>Male</option>
+        <option>Female</option>
+        </select><br><br>
+        <label>DOB:</label><br>
+        <input type="date">
+        <br><br>
+        <label>Select Your Country:</label><br>
+        <input type="radio" name="abc">Pakistan <br>
+        <input type="radio" name="abc">India  <br>
+        <input type="radio" name="abc">America <br>
+        <input type="radio" name="abc">England <br>
         <br>
-        <label>On a scale 1-10,How do you like my CV:</label>
-        <input type="number" placeholder="1-10">
+        <label>Email:</label><br>
+        <input type="text" placeholder="Enter Your Email"><br>
+        <br>
+        <label>On a scale 1-10,How do you like my CV:</label><br>
+        <input type="number" placeholder="1-10"><br><br>
+        <label>Which of the following games you like:</label><br>
+        <input type="checkbox">GTA V
+        <input type="checkbox">Red Dead Redemption 2
+        <input type="checkbox">Tekken 7
+        <input type="checkbox">Fifa 2022
+        <input type="checkbox">Starfield
+        <br>
+        <input type="checkbox">Tetris
+        <input type="checkbox">Resident Evil 4
+        <input type="checkbox">Saints Row 2
+        <input type="checkbox">Call of Duty
+        <input type="checkbox">Forza Horizon 5
+        <br><br>
+        <label>Enter Your Review about my CV:</label><br>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Enter the text"></textarea>
+        <br><br><br>
+        <button type="button">SUBMIT</button>
+       
+
     </form>
 </body>
 </html>
